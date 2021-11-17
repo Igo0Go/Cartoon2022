@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MagicSuit_Fire
+  m_Name: MagicSuit_Lava
   m_Shader: {fileID: -6465566751694194690, guid: f016717527349534b9494cc7f2abdcb8, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
@@ -107,12 +107,12 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Metallic: 0.606
+    - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 1
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -120,11 +120,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_d411c2b35a6e46deba094f76ac283eb9: {r: 383.498, g: 34.13334, b: 0, a: 1}
-    - Vector2_1988540455974ecdb5502afe77d4e8b6: {r: 0, g: -0.3, b: 0, a: 0}
-    - Vector2_615be1bd0e0940cea946f0736b5594a5: {r: 5, g: 5, b: 0, a: 0}
+    - Color_d411c2b35a6e46deba094f76ac283eb9: {r: 383.498, g: 10.039216, b: 0, a: 1}
+    - Vector2_1988540455974ecdb5502afe77d4e8b6: {r: 0, g: 0.05, b: 0, a: 0}
+    - Vector2_615be1bd0e0940cea946f0736b5594a5: {r: 8, g: 8, b: 0, a: 0}
     - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 220.26176, g: 19.60445, b: 0, a: 1}
+    - _EmissionColor: {r: 383.49805, g: 34.133335, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

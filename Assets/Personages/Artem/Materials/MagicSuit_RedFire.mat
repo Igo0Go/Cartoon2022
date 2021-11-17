@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MagicSuit_Fire
+  m_Name: MagicSuit_RedFire
   m_Shader: {fileID: -6465566751694194690, guid: f016717527349534b9494cc7f2abdcb8, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
@@ -120,8 +120,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_d411c2b35a6e46deba094f76ac283eb9: {r: 383.498, g: 34.13334, b: 0, a: 1}
-    - Vector2_1988540455974ecdb5502afe77d4e8b6: {r: 0, g: -0.3, b: 0, a: 0}
+    - Color_d411c2b35a6e46deba094f76ac283eb9: {r: 121.474525, g: 3.496504, b: 0, a: 1}
+    - Vector2_1988540455974ecdb5502afe77d4e8b6: {r: 0, g: -0.2, b: 0, a: 0}
     - Vector2_615be1bd0e0940cea946f0736b5594a5: {r: 5, g: 5, b: 0, a: 0}
     - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

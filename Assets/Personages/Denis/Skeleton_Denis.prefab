@@ -10170,7 +10170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8093321122169375272}
   m_Layer: 0
-  m_Name: Skeleton
+  m_Name: Skeleton_Denis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

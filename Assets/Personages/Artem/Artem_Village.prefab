@@ -612,6 +612,25 @@ Transform:
   m_Father: {fileID: 7376476658668796351}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!95 &3659944503808287096
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901479254948911268}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44cf68156c44c234ab201a256121e1c0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2530647846248939574
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,6 +1619,25 @@ Transform:
   m_Father: {fileID: 3659944503837791154}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 6.8110003, y: 0, z: 0}
+--- !u!95 &3659944503808287097
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3659944505285352662}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3659944505429889204
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2598,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: 01e0c239e3c882c4cb4c136f358866da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2641,7 +2679,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: 01e0c239e3c882c4cb4c136f358866da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2722,8 +2760,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: bbc1cf65884ee294686fd66cd7886eb2, type: 2}
+  - {fileID: 2100000, guid: bbc1cf65884ee294686fd66cd7886eb2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2804,8 +2842,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: 44a50d6a38bcd284f9540743cd58dc04, type: 2}
+  - {fileID: 2100000, guid: 44a50d6a38bcd284f9540743cd58dc04, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3050,8 +3088,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: bbc1cf65884ee294686fd66cd7886eb2, type: 2}
+  - {fileID: 2100000, guid: bbc1cf65884ee294686fd66cd7886eb2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3132,8 +3170,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: 44a50d6a38bcd284f9540743cd58dc04, type: 2}
+  - {fileID: 2100000, guid: 44a50d6a38bcd284f9540743cd58dc04, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3617,7 +3655,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: e5fc37f53dc96044388cacb1462f9f69, type: 2}
   - {fileID: 2100000, guid: ee3852ec567f2144499ec4daee7ec3ee, type: 2}
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: 126f64cc2310e824bb891bea04387922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3732,7 +3770,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: e5fc37f53dc96044388cacb1462f9f69, type: 2}
   - {fileID: 2100000, guid: ee3852ec567f2144499ec4daee7ec3ee, type: 2}
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: 126f64cc2310e824bb891bea04387922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3897,7 +3935,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: -7217288592871534614, guid: f07c1b53d7b8c764a8c5f044c8754210, type: 3}
   - {fileID: 2100000, guid: e5fc37f53dc96044388cacb1462f9f69, type: 2}
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: 01e0c239e3c882c4cb4c136f358866da, type: 2}
   - {fileID: 2100000, guid: bbc1cf65884ee294686fd66cd7886eb2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -4095,7 +4133,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: bbc1cf65884ee294686fd66cd7886eb2, type: 2}
   - {fileID: 2100000, guid: e5fc37f53dc96044388cacb1462f9f69, type: 2}
   - {fileID: 2100000, guid: 126f64cc2310e824bb891bea04387922, type: 2}
-  - {fileID: 2100000, guid: 02be88807d24b6640b4ae35cb3e645e3, type: 2}
+  - {fileID: 2100000, guid: 01e0c239e3c882c4cb4c136f358866da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4967,9 +5005,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c4332eabfe8c4f409832f58b23ce4a3, type: 3}
---- !u!4 &3659944505351206033 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9037645893953162107, guid: 7c4332eabfe8c4f409832f58b23ce4a3, type: 3}
+--- !u!1 &3659944505285352662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9037645893887353660, guid: 7c4332eabfe8c4f409832f58b23ce4a3, type: 3}
   m_PrefabInstance: {fileID: 5739440992273137642}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1901479254948911268 stripped
@@ -4977,46 +5015,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6180625763226642254, guid: 7c4332eabfe8c4f409832f58b23ce4a3, type: 3}
   m_PrefabInstance: {fileID: 5739440992273137642}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3659944505285352662 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9037645893887353660, guid: 7c4332eabfe8c4f409832f58b23ce4a3, type: 3}
+--- !u!4 &3659944505351206033 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9037645893953162107, guid: 7c4332eabfe8c4f409832f58b23ce4a3, type: 3}
   m_PrefabInstance: {fileID: 5739440992273137642}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &3659944503808287096
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901479254948911268}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 44cf68156c44c234ab201a256121e1c0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!95 &3659944503808287097
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3659944505285352662}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

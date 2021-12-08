@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4502903739612164459}
+  - component: {fileID: 990455660}
   m_Layer: 0
   m_Name: Flames
   m_TagString: Untagged
@@ -23,14 +24,34 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131217997037018575}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.175, z: 0.035}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.99481875, z: -0.10166502, w: 0}
+  m_LocalPosition: {x: 0, y: 0.121527664, z: -0.05909476}
+  m_LocalScale: {x: 1.5032277, y: 1.3281956, z: 1.4948242}
   m_Children:
   - {fileID: 5339565624381937060}
-  m_Father: {fileID: 3659944505429889205}
-  m_RootOrder: 2
+  - {fileID: 8293138239663377690}
+  m_Father: {fileID: 5779635169192187589}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &990455660
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131217997037018575}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9be7ad47bf2afc479f84d148e8ca3ba, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &986430231503722122
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +232,9 @@ VisualEffect:
       - m_Value: 1
         m_Name: Spawn Rate
         m_Overridden: 1
+      - m_Value: 2
+        m_Name: Lifetime
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -220,7 +244,7 @@ VisualEffect:
         m_Overridden: 1
       - m_Value: {x: 0, y: 1, z: 0}
         m_Name: Wind Direction_direction
-        m_Overridden: 0
+        m_Overridden: 1
     m_Vector4f:
       m_Array: []
     m_Uint:
@@ -942,7 +966,7 @@ GameObject:
   - component: {fileID: 3659944503784170126}
   - component: {fileID: 3659944503784170127}
   m_Layer: 0
-  m_Name: NesteaPersAnimOrigin
+  m_Name: PersAnimOrigin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1667,7 +1691,6 @@ Transform:
   m_Children:
   - {fileID: 3659944504626810557}
   - {fileID: 3659944505351206033}
-  - {fileID: 4502903739612164459}
   m_Father: {fileID: 3659944505180204205}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -18.067001, y: 0, z: 0}
@@ -2486,7 +2509,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.0929, z: -0.0221}
   m_LocalScale: {x: 0.66523486, y: 0.7566411, z: 0.6652348}
   m_Children:
-  - {fileID: 8293138239663377690}
+  - {fileID: 4502903739612164459}
   m_Father: {fileID: 3659944504626810557}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -11.67, y: 180, z: 0}
@@ -3983,12 +4006,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7407475865630616010}
-  m_LocalRotation: {x: -0.099123456, y: -0, z: -0, w: 0.9950752}
-  m_LocalPosition: {x: 0, y: 0.024, z: -0.001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.979842, z: 0.1997742, w: 0}
+  m_LocalPosition: {x: 0, y: -0.063063145, z: -0.051258773}
+  m_LocalScale: {x: 0.6652349, y: 0.7394669, z: 0.6813385}
   m_Children: []
-  m_Father: {fileID: 5779635169192187589}
-  m_RootOrder: 0
+  m_Father: {fileID: 4502903739612164459}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -11.377, y: 0, z: 0}
 --- !u!33 &7299754610819483952
 MeshFilter:

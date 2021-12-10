@@ -1255,7 +1255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3637216147030555385}
   m_Layer: 0
-  m_Name: LaserPistol
+  m_Name: Pistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4218,7 +4218,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6105885874457499581, guid: 58630b0ed63a99f4d9a0265a60624902, type: 3}
       propertyPath: m_Name
-      value: LaserPistol
+      value: Pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105885874457499581, guid: 58630b0ed63a99f4d9a0265a60624902, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58630b0ed63a99f4d9a0265a60624902, type: 3}

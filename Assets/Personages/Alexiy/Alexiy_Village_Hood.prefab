@@ -1969,7 +1969,7 @@ GameObject:
   - component: {fileID: 4570180022330373372}
   - component: {fileID: 4570180022330373373}
   m_Layer: 0
-  m_Name: NesteaPersAnimOrigin
+  m_Name: PersAnimOrigin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

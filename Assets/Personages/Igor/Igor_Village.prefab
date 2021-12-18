@@ -2426,6 +2426,113 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1246465586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4939099621498097920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be5420d86635bf4994e34ee9f010118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 2087079665}
+  stageParamName: Stage
+  tool1ParamName: KnifeTool
+  tool2ParamName: GrabTool
+  stagechangeSpeed: 10
+--- !u!114 &1246465594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4939099621498097920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 0a5ae35ef3c060041a407e37d1c8a063, type: 2}
+    - {fileID: 11400000, guid: 0abce8143037cbe469e4b32e370bf4b6, type: 2}
+    - {fileID: 11400000, guid: 338ff184acf264d44affdce98afc4631, type: 2}
+    - {fileID: 11400000, guid: 95ad3747a98452f49a2f26fff8024369, type: 2}
+    - {fileID: 11400000, guid: d261d24fb86cea64ab0bbcf6dbe34edc, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465586}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: ToDefault
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465586}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: ToFirst
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465586}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: ToSecond
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465586}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: UseTool1
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465586}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: UseTool2
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &4943272360464577394
 GameObject:
   m_ObjectHideFlags: 0
@@ -4185,6 +4292,113 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1246465587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6712483290418467178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be5420d86635bf4994e34ee9f010118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 2087079666}
+  stageParamName: Stage
+  tool1ParamName: HookTool
+  tool2ParamName: JumpTool
+  stagechangeSpeed: 10
+--- !u!114 &1246465595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6712483290418467178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: f8e938b4f8fc2994d930b3ec98d13c3d, type: 2}
+    - {fileID: 11400000, guid: 57c50565775dd1d488bb3681419cb560, type: 2}
+    - {fileID: 11400000, guid: cb86f4e0d94516f4d8e9a8e11f73ba82, type: 2}
+    - {fileID: 11400000, guid: 29e3bbb92261f1046a9efe78c3d576cf, type: 2}
+    - {fileID: 11400000, guid: c3916fdece787bf48b339c06e3019e73, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465587}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: ToDefault
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465587}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: ToFirst
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465587}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: ToSecond
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465587}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: UseTool1
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246465587}
+          m_TargetAssemblyTypeName: MultitoolController, Assembly-CSharp
+          m_MethodName: UseTool2
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &6901657002623021270
 GameObject:
   m_ObjectHideFlags: 0
@@ -5674,14 +5888,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96e40f3ed20853542898b92571a23c5e, type: 3}
---- !u!1 &6712483290418467178 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6712483291121750440, guid: 96e40f3ed20853542898b92571a23c5e, type: 3}
-  m_PrefabInstance: {fileID: 908968130}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4939099621498097920 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4939099620791079362, guid: 96e40f3ed20853542898b92571a23c5e, type: 3}
+  m_PrefabInstance: {fileID: 908968130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6712483290418467178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6712483291121750440, guid: 96e40f3ed20853542898b92571a23c5e, type: 3}
   m_PrefabInstance: {fileID: 908968130}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1155665538506108698 stripped

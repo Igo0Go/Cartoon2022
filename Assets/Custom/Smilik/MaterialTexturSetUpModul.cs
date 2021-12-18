@@ -30,7 +30,8 @@ public class MaterialTexturSetUpModul : MonoBehaviour
     {
         try
         {
-            material.mainTexture = setUpPacks[number];
+            material.SetTexture("_EmissionMap", setUpPacks[number]);
+//            material.mainTexture = setUpPacks[number];
         }
         catch (Exception ex)
         {

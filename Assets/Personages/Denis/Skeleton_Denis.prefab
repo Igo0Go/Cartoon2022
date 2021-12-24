@@ -1621,6 +1621,7 @@ GameObject:
   - component: {fileID: 1509469698450728597}
   - component: {fileID: 7973987530271819290}
   - component: {fileID: 2619823250297533892}
+  - component: {fileID: 8799394790904409378}
   m_Layer: 0
   m_Name: HandR
   m_TagString: Untagged
@@ -1696,6 +1697,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &8799394790904409378
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712580151640277644}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 97fb7485a57381a428315c9e9782f9c8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1797399397173228054
 GameObject:
   m_ObjectHideFlags: 0
@@ -11258,6 +11278,7 @@ GameObject:
   - component: {fileID: 4315802444867822558}
   - component: {fileID: 4813715273520029020}
   - component: {fileID: 5339688889678267937}
+  - component: {fileID: 839195297662044951}
   m_Layer: 0
   m_Name: HandR
   m_TagString: Untagged
@@ -11333,6 +11354,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &839195297662044951
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184065403945069100}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 97fb7485a57381a428315c9e9782f9c8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8412341609626649987
 GameObject:
   m_ObjectHideFlags: 0
